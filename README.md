@@ -9,7 +9,7 @@ https://webrtc.ecl.ntt.com/en/ios-tutorial.html
 Use [cocoapods-keys](https://github.com/orta/cocoapods-keys)
 
 ```
-$ bundle install
+$ bundle install --path vendor/bundle
 $ bundle exec pod keys set SkyWayApiKey <your APIkey>
 $ bundle exec pod keys set SkyWayDomain <your Domain>
 $ bundle exec pod install
