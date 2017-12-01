@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FAE0A731FD1AD6D00E13EB1 /* SkyWay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FAE0A711FD1AD3E00E13EB1 /* SkyWay.framework */; };
+		1FAE0A741FD1AD6D00E13EB1 /* SkyWay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1FAE0A711FD1AD3E00E13EB1 /* SkyWay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		299FA350171B8617A340B977 /* libPods-skyway-ios-sdk-tutorial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2600A249404E183830AC1C2B /* libPods-skyway-ios-sdk-tutorial.a */; };
 		7115A6491EE65CEC006D989A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7115A6481EE65CEC006D989A /* main.m */; };
 		7115A64C1EE65CEC006D989A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7115A64B1EE65CEC006D989A /* AppDelegate.m */; };
 		7115A64F1EE65CEC006D989A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7115A64E1EE65CEC006D989A /* ViewController.m */; };
@@ -23,6 +26,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				1FAE0A741FD1AD6D00E13EB1 /* SkyWay.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -30,6 +34,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1FAE0A711FD1AD3E00E13EB1 /* SkyWay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SkyWay.framework; sourceTree = "<group>"; };
+		2600A249404E183830AC1C2B /* libPods-skyway-ios-sdk-tutorial.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-skyway-ios-sdk-tutorial.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0FBF40BB06A7C585590D86 /* Pods-skyway-ios-sdk-tutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skyway-ios-sdk-tutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-skyway-ios-sdk-tutorial/Pods-skyway-ios-sdk-tutorial.release.xcconfig"; sourceTree = "<group>"; };
 		7115A6441EE65CEC006D989A /* skyway-ios-sdk-tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "skyway-ios-sdk-tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7115A6481EE65CEC006D989A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7115A64A1EE65CEC006D989A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +49,7 @@
 		7115A6581EE65CEC006D989A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		716137981EE78C7700BED2A5 /* PeerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeerListViewController.h; sourceTree = "<group>"; };
 		716137991EE78C7700BED2A5 /* PeerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeerListViewController.m; sourceTree = "<group>"; };
+		8BBF6374531D99E2A92992F0 /* Pods-skyway-ios-sdk-tutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skyway-ios-sdk-tutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-skyway-ios-sdk-tutorial/Pods-skyway-ios-sdk-tutorial.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,17 +57,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FAE0A731FD1AD6D00E13EB1 /* SkyWay.framework in Frameworks */,
+				299FA350171B8617A340B977 /* libPods-skyway-ios-sdk-tutorial.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11B991BEEDCA643F06185F37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BBF6374531D99E2A92992F0 /* Pods-skyway-ios-sdk-tutorial.debug.xcconfig */,
+				4C0FBF40BB06A7C585590D86 /* Pods-skyway-ios-sdk-tutorial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		25D36A0F5A941663AE85B137 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2600A249404E183830AC1C2B /* libPods-skyway-ios-sdk-tutorial.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7115A63B1EE65CEC006D989A = {
 			isa = PBXGroup;
 			children = (
+				1FAE0A711FD1AD3E00E13EB1 /* SkyWay.framework */,
 				7115A6461EE65CEC006D989A /* skyway-ios-sdk-tutorial */,
 				7115A6451EE65CEC006D989A /* Products */,
+				11B991BEEDCA643F06185F37 /* Pods */,
+				25D36A0F5A941663AE85B137 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,10 +134,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7115A65B1EE65CEC006D989A /* Build configuration list for PBXNativeTarget "skyway-ios-sdk-tutorial" */;
 			buildPhases = (
+				6C87D1D2F54B9581C9D0E34E /* [CP] Check Pods Manifest.lock */,
 				7115A6401EE65CEC006D989A /* Sources */,
 				7115A6411EE65CEC006D989A /* Frameworks */,
 				7115A6421EE65CEC006D989A /* Resources */,
 				70C175531F347BBC00A969EC /* Embed Frameworks */,
+				5E40AC4AF2BDE68927CD0E83 /* [CP] Embed Pods Frameworks */,
+				1BDD09E662919CE1E1A4F63A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,7 +165,7 @@
 				TargetAttributes = {
 					7115A6431EE65CEC006D989A = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 7D73F8WL22;
+						DevelopmentTeam = NYT8BVWJBJ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -167,6 +200,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BDD09E662919CE1E1A4F63A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-skyway-ios-sdk-tutorial/Pods-skyway-ios-sdk-tutorial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E40AC4AF2BDE68927CD0E83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-skyway-ios-sdk-tutorial/Pods-skyway-ios-sdk-tutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C87D1D2F54B9581C9D0E34E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-skyway-ios-sdk-tutorial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7115A6401EE65CEC006D989A /* Sources */ = {
@@ -296,9 +380,10 @@
 		};
 		7115A65C1EE65CEC006D989A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BBF6374531D99E2A92992F0 /* Pods-skyway-ios-sdk-tutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7D73F8WL22;
+				DEVELOPMENT_TEAM = NYT8BVWJBJ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,16 +392,17 @@
 				INFOPLIST_FILE = "skyway-ios-sdk-tutorial/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ntt.skyway-ios-sdk-tutorial";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.ykws.skyway-ios-sdk-tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		7115A65D1EE65CEC006D989A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C0FBF40BB06A7C585590D86 /* Pods-skyway-ios-sdk-tutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7D73F8WL22;
+				DEVELOPMENT_TEAM = NYT8BVWJBJ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -325,7 +411,7 @@
 				INFOPLIST_FILE = "skyway-ios-sdk-tutorial/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ntt.skyway-ios-sdk-tutorial";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.ykws.skyway-ios-sdk-tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
