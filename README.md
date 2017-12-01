@@ -9,8 +9,8 @@ https://webrtc.ecl.ntt.com/en/ios-tutorial.html
 Use [cocoapods-keys](https://github.com/orta/cocoapods-keys)
 
 ```
-$ gem install cocoapods-keys
-$ pod keys set "SkyWayApiKey" "<your APIkey>"
-$ pod keys set "SkyWayDomain" "<your Domain>"
-$ pod install
+$ bundle install
+$ bundle exec pod keys set SkyWayApiKey <your APIkey>
+$ bundle exec pod keys set SkyWayDomain <your Domain>
+$ bundle exec pod install
 ```

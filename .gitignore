@@ -22,3 +22,7 @@ SkyWay.framework/
 
 Podfile.lock
 Pods/*
+
+Gemfile.lock
+.bundle/*
+vendor/bundle/*
